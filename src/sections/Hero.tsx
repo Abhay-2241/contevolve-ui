@@ -115,8 +115,8 @@ export default function Hero() {
                     Pioneering Solutions To accelerate Growth
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
-                Contevolve is a global IT services provider, delivering purpose-driven solutions that
-                 help businesses thrive in today's competitive market
+                Contevolve is a global IT services provider delivering purpose-driven solutions that
+                 help businesses thrive in todays competitive market
                 </p>
                 <form className="flex items-center border border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto gap-2">
                     <input
