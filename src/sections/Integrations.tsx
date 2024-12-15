@@ -1,42 +1,43 @@
 import Tag from "@/components/Tag";
-import figmaIcon from "@/assets/images/figma-logo.svg";
-import notionIcon from "@/assets/images/notion-logo.svg";
-import slackIcon from "@/assets/images/slack-logo.svg";
-import relumeIcon from "@/assets/images/relume-logo.svg";
-import framerIcon from "@/assets/images/framer-logo.svg";
-import githubIcon from "@/assets/images/github-logo.svg";
+import devops from "@/assets/images/cloud.webp"
+import aiml from "@/assets/images/ai-ml.webp"
+import security from "@/assets/images/security.webp"
+import datasc from "@/assets/images/datascience.webp"
+import software from "@/assets/images/sde.webp"
+import personalser from "@/assets/images/ps.webp"
+
 import IntegrationsColumn from "@/components/IntegrationsColumn";
 
 const integrations = [
     {
-        name: "Figma",
-        icon: figmaIcon,
-        description: "Figma is a collaborative interface design tool.",
+        name: "AI-ML",
+        icon: aiml,
+        description: "We specialize in providing state-of-the-art AI/ML-based solutions.",
     },
     {
-        name: "Notion",
-        icon: notionIcon,
-        description: "Notion is an all-in-one workspace for notes and docs.",
+        name: "DevOps",
+        icon: devops,
+        description: "Fast-track DevOps for Continuous Delivery.",
     },
     {
-        name: "Slack",
-        icon: slackIcon,
-        description: "Slack is a powerful team communication platform.",
+        name: "IT-Security",
+        icon: security,
+        description: "Innovative cyber solutions for hack-free security",
     },
     {
-        name: "Relume",
-        icon: relumeIcon,
-        description: "Relume is a no-code website builder and design system.",
+        name: "Software Development",
+        icon: software,
+        description: "Your software development partner for exponential growth",
     },
     {
-        name: "Framer",
-        icon: framerIcon,
-        description: "Framer is a professional website prototyping tool.",
+        name: "Data-Science",
+        icon: datasc,
+        description: "We develop data science solutions that drive growth.",
     },
     {
-        name: "GitHub",
-        icon: githubIcon,
-        description: "GitHub is the leading platform for code collaboration.",
+        name: "Personal services",
+        icon: personalser,
+        description: "Software testing fueled with innovation",
     },
 ];
 
@@ -48,15 +49,13 @@ export default function Integrations() {
             <div className="container">
                 <div className="grid lg:grid-cols-2 items-center lg:gap-16">
                     <div className="">
-                        <Tag>Integrations</Tag>
+                        <Tag>Services</Tag>
                         <h2 className="text-6xl font-medium mt-6 ">
-                            Plays well with{" "}
-                            <span className="text-lime-400">others</span>
+                            Services we{" "}
+                            <span className="text-lime-400">Provide</span>
                         </h2>
                         <p className="text-white/50 mt-4 text-lg">
-                            Layers seamlessly connects with your favorite tools,
-                            making it easy to plug into any workflow and
-                            collaborate across platforms.
+                        Contevolve is a global IT services provider, delivering business driven solutions that help Organisations thrive in today’s competitive market.
                         </p>
                     </div>
                     <div className="">

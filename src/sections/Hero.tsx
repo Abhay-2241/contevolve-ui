@@ -73,6 +73,8 @@ export default function Hero() {
                 >
                     <Image
                         src={designExample1Image}
+                        width={250}
+                        height={250}
                         alt="design example 1 image"
                         draggable={false}
                     />
@@ -94,6 +96,8 @@ export default function Hero() {
                 >
                     <Image
                         src={designExample2Image}
+                        height={330}
+                        width={330}
                         alt="design example 2 image"
                         draggable={false}
                     />
@@ -106,18 +110,13 @@ export default function Hero() {
                     <Pointer name="Bryan" color="red" />
                 </motion.div>
 
-                <div className="flex justify-center">
-                    <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
-                        ✨ £7.5M seed round raised
-                    </div>
-                </div>
-                <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6">
-                    Impactful design, created effortlessly
+                
+                <h1 className="text-6xl md:text-7xl lg:text-6xl font-medium text-center mt-1">
+                    Pioneering Solutions To accelerate Growth
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
-                    Design tools shouldn&apos;t slow you down. Layers combines
-                    powerful features with an intuitive interface that kps you
-                    in your creative flow.
+                Contevolve is a global IT services provider, delivering purpose-driven solutions that
+                 help businesses thrive in today's competitive market
                 </p>
                 <form className="flex items-center border border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto gap-2">
                     <input

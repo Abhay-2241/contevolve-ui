@@ -39,7 +39,7 @@ export default function CallToAction() {
                                 &#10038;
                             </span>
                             <span className="group-hover:text-lime-400 transition duration-500">
-                                Try it for free
+                                Contevolve
                             </span>
                         </div>
                     ))}

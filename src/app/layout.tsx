@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Layers Landing Page",
-    description: "Modern Design Tool Landing Page",
+    title: "Contevolve-revamp",
+    description: "Contevolve ui re-design",
 };
 
 export default function RootLayout({

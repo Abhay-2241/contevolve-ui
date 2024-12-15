@@ -1,15 +1,14 @@
 "use client";
 import Image from "next/image";
-import logoImage from "@/assets/images/logo.svg";
 import Button from "@/components/Button";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
 
 const navLinks = [
-    { label: "Home", href: "#" },
-    { label: "Features", href: "#features" },
-    { label: "Integrations", href: "#integrations" },
+    { label: "Home", href: "https://contevolve.com/" },
+    { label: "Services", href: "#integrations" },
+    { label: "features", href: "#features" },
     { label: "FAQs", href: "#faqs" },
 ];
 
@@ -24,8 +23,10 @@ export default function Navbar() {
                         <div className="grid grid-cols-2 lg:grid-cols-3  p-2 px-4 md:pr-2 items-center ">
                             <div className="">
                                 <Image
-                                    src={logoImage}
+                                    src={"https://contevolve.com/wp-content/uploads/2023/03/logo-2.svg"}
                                     alt="layers logo"
+                                    width={250}
+                                    height={250}
                                     className="h-9 md:h-auto w-auto"
                                 />
                             </div>

@@ -9,13 +9,14 @@ import Avatar from "@/components/Avatar";
 import Key from "@/components/Key";
 
 const features = [
-    "Asset Library",
-    "Code Preview",
-    "Flow Mode",
-    "Smart Sync",
-    "Auto Layout",
-    "Fast Search",
-    "Smart Guides",
+    "AI-ML",
+    "Cloud-Service",
+    "Data Science",
+    "Dev-Ops",
+    "Help Desk",
+    "IT-Security",
+    "Proffesional Services",
+    "Software Development",
 ];
 
 export default function Features() {
@@ -105,8 +106,8 @@ export default function Features() {
 
                     <FeatureCard
                         title="Keyboard Quick Actions"
-                        description="Powerful commands to help you create designs
-                                more quickly"
+                        description="Powerful commands to help you create your
+                        devops pipeline"
                         className="md:col-span-2 md:col-start-2 lg:col-span-1 lg:col-start-auto group hover:scale-105 transition duration-500"
                     >
                         <div className="aspect-video flex items-center justify-center gap-4">
